@@ -1,14 +1,19 @@
 html, body{
-    margin: 0;
     padding: 0;
-    width: 1280px;
     height: 100vh;
-    
+    display: block;
+    background-color: black;
+}
+.bodyIndex{
+    background-image: url(../images/ZeeBlack.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .buttonExercice{
     width: 450px;
     height: 170px;
     font-size: 38px;
+    background-color:teal;
 }
 .buttonSpace{
     padding-bottom: 75px;
@@ -24,10 +29,13 @@ html, body{
 }
 .pIndex{
     text-align: center;
-    font-size: 38px;
+    font-size: 36px;
+    margin: 115;
 }
 
 .pExercice{
+    background-image: url(../images/StrandVoet.png);
+    background-size: 100%;
     font-size: 48px;
     text-align: center;
 }
@@ -39,4 +47,6 @@ html, body{
 .center{
     text-align: center;
 }
-
+p{
+    color: rgb(206, 206, 206);
+}
