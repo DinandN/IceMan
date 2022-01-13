@@ -1,0 +1,105 @@
+body {
+    background-image: url('//pictures/nature6.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.nature4{
+    height: 80%;
+    width: auto;
+}
+h1 {
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+p{
+    font-size: 3em;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    margin: 40px,30px;
+}
+
+.buttonSessie{
+    background-color: teal;
+    color: whitesmoke;
+    border-color: black;
+    opacity: 0.8;
+    font-size: 45px;
+    text-align: center;
+    padding: 0%,10%;
+    margin-top: 10%;
+    height: 10%;
+    width: 50%;
+}
+
+.divButtonSessie{
+    text-align: center;
+}
+.buttonHome{
+    background-color: teal;
+    color: whitesmoke;
+    font-size: 26px;
+}
+
+.buttonIndex {
+    background-color: teal;
+    text-align: center;
+    font-size: 45px;
+    opacity: 0.8;
+    padding: 0%,10%;
+    margin-top: 10%;
+    height: 50%;
+    width: 50%;
+    color: whitesmoke;
+    border-color: black;
+}
+
+.fixedHome{
+    position: fixed;
+}
+.center{
+      text-align: center;
+  }
+
+h2{
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+hr{
+    margin-bottom: 50px;
+}
+
+.Home{
+    padding-left: 50px;
+}
+
+.title {
+    background-color: teal;
+    opacity: 0.9;
+    
+}
+
+.list{
+    font-size: 3em;
+    color: whitesmoke;
+}
+
+.footer{
+    color: teal;
+    text-align: left;
+
+}
+
+.contact{
+    font-size: 10px;
+    color: whitesmoke;
+    text-align: center;
+}
+
