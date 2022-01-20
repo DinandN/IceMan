@@ -6,7 +6,6 @@
     <title>Sessie 1</title>
     <style>
         body {
-            overflow: hidden;
             background-image: url('../../pictures/Bos5.png');
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -23,15 +22,23 @@
         <h1>essential movements</h1>
         <h2>Sessies</h2>
     </div>
+    <div class="dropdown">
+        <button class="dropbtn">Verander Muziek</button>
+        <div class="dropdown-content">
+            <button onclick="changeMusic('../../audio/doinMum.mp3');">muziek</button>
+            <button onclick="changeMusic('../../audio/audioTemplate.mp3');">muziek2</button>
+        </div>
+    </div>
+    <div align="center">
+        <div class="circle">
 
-    <div>
-        <audio controls>
-            <source id="audio1" src="../../audio/y2mate.com - FAttY SPiNS  Doin Your Mom.mp3" type="audio/mpeg">
-            Your browser does not support this audio tag.
+        </div>
+        <br /><br /><br />
+        <audio id="audio" controls>
+            <source src="../../audio/doinMum.mp3" type="audio/mpeg">
         </audio>
     </div>
-    <button onclick='audio1()'>audio template</button>
 </body>
 
 </html>
-<script src="../../javascript/script.js"></script>
+<script src='../../javascript/script.js'></script>

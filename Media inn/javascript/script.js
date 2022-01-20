@@ -1,3 +1,3 @@
-function audio1() {
-    document.getElementById("audio1").src = "audioTemplate.mp3";
+function changeMusic(music) {
+    document.getElementById("audio").setAttribute('src', music);
 }
