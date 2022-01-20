@@ -35,7 +35,9 @@ p{
     height: 10%;
     width: 50%;
 }
-
+.buttonSessie:hover{
+    opacity: 0.6;
+}
 .divButtonSessie{
     text-align: center;
 }
@@ -44,11 +46,13 @@ p{
     color: whitesmoke;
     font-size: 26px;
 }
-
+.buttonHome:hover{
+    opacity: 0.6;
+}
 .buttonIndex {
     background-color: teal;
     text-align: center;
-    font-size: 45px;
+    font-size: 38px;
     opacity: 0.8;
     padding: 0%,10%;
     margin-top: 10%;
@@ -56,6 +60,9 @@ p{
     width: 50%;
     color: whitesmoke;
     border-color: black;
+}
+.buttonIndex:hover{
+    opacity: 0.6;
 }
 
 .fixedHome{
@@ -103,30 +110,9 @@ hr{
     text-align: center;
 }
 
-audio::-webkit-media-controls-mute-button {};
+audio{
+    width: 80%;
+    margin-top: 30%;
+    margin-left: 10%;
+}
 
-audio::-webkit-media-controls-play-button{};
-
-audio::-webkit-media-controls-timeline-container{};
-
-audio::-webkit-media-controls-current-time-display{};
-
-audio::-webkit-media-controls-time-remaining-display{};
-
-audio::-webkit-media-controls-timeline{};
-
-audio::-webkit-media-controls-volume-slider-container{};
-
-audio::-webkit-media-controls-volume-slider{};
-
-audio::-webkit-media-controls-seek-back-button{};
-
-audio::-webkit-media-controls-seek-forward-button{};
-
-audio::-webkit-media-controls-fullscreen-button{};
-
-audio::-webkit-media-controls-rewind-button{};
-
-audio::-webkit-media-controls-return-to-realtime-button{};
-
-audio::-webkit-media-controls-toggle-closed-captions-button{};
