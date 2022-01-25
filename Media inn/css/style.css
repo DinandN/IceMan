@@ -1,13 +1,4 @@
-body {
-    background-image: url('//pictures/nature6.jpg');
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-.nature4{
-    height: 80%;
-    width: auto;
-}
+
 h1 {
     font-size: 4em;
     text-align: center;
@@ -113,7 +104,6 @@ hr{
 audio{
     width: 80%;
     margin-top: 20%;
-    margin-left: 10%;
 }
 
     
@@ -195,4 +185,19 @@ audio{
       
       .dropdown:hover .dropbtn {
         background-color: teal;
+      }
+
+      .nextButton {
+        background-color: teal;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        width: 160px;
+        border: none;
+        cursor: pointer;
+        float: right;
+      }
+
+      .nextButton:hover{
+          opacity: 0.8;
       }
