@@ -10,7 +10,7 @@ function playButton() {
         monologue.play();
         music.play();
         music.volume = 0.075;
-        monologue.volume = 0.15;
+        monologue.volume = 0.75;
         intPlayButton = 1;
     }
     else {
