@@ -209,12 +209,11 @@ audio{
 .music{
     visibility: hidden;
 }
-
 audio::-webkit-media-controls-panel{
-
+    background-color: rgb(230, 230, 230); 
 }
 audio::-webkit-media-controls-mute-button{
-    background-color: #00ffff;
+    background-color: rgb(230, 230, 230);   
 }
 audio::-webkit-media-controls-play-button{
     visibility: hidden;
@@ -223,19 +222,19 @@ audio::-webkit-media-controls-timeline-container{
     visibility: hidden;
 }
 audio::-webkit-media-controls-current-time-display{
-    background-color: #00ffff;
+    background-color: rgb(230, 230, 230);
 }
 audio::-webkit-media-controls-time-remaining-display{
-    background-color: #00ffff;
+    background-color: rgb(230, 230, 230);
 }
 audio::-webkit-media-controls-timeline{
-    background-color: #00ffff;
+    background-color: rgb(230, 230, 230);
 }
 audio::-webkit-media-controls-volume-slider-container{
     visibility: hidden;
 }
 audio::-webkit-media-controls-volume-slider{
-    background-color: #00ffff;
+    background-color: rgb(230, 230, 230);
 }
 audio::-webkit-media-controls-seek-back-button{
     visibility: hidden;
@@ -255,3 +254,13 @@ audio::-webkit-media-controls-return-to-realtime-button{
 audio::-webkit-media-controls-toggle-closed-captions-button{
     visibility: hidden;
 }
+
+/* triangle style */
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid rgb(230, 230, 230);
+    border-bottom: 50px solid transparent;
+  }
