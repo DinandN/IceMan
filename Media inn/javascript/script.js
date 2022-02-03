@@ -2,6 +2,9 @@ var intPlayButton = 0;
 
 function changeMusic(music) {
     document.getElementById("music").setAttribute('src', music);
+    document.getElementById("monologue");
+    monologue.pause();
+    music.pause();
 }
 function playButton() {
     document.getElementById("monologue");
@@ -10,7 +13,7 @@ function playButton() {
         monologue.play();
         music.play();
         music.volume = 0.075;
-        monologue.volume = 0.75;
+        monologue.volume = 0.5;
         intPlayButton = 1;
     }
     else {
