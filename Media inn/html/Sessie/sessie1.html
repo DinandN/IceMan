@@ -29,15 +29,19 @@
             <button onclick="changeMusic('../../audio/audioTemplate.mp3');">muziek2</button>
         </div>
     </div>
-    <a href='./sessie2.html'><button class='nextButton'>next</button></a>
+    <a href='./sessie2.html'><button class='nextButton'>Volgende</button></a>
     <div align="center">
         <div class="circle">
 
         </div>
-        <br /><br /><br />
-        <audio id="audio" controls>
+        <br /><br /><br /><br /><br /><br />
+        <audio id="music" class="music"controls>
             <source src="../../audio/doinMum.mp3" type="audio/mpeg">
         </audio>
+        <audio id="monologue" class="monologue" controls>
+            <source src="../../audio/y2mate.com - killer kamal speknek youssef diss.mp3" type="audio/mpeg">
+        </audio>
+        <input type="button" value="sound" onclick="playButton()" />
     </div>
 </body>
 
